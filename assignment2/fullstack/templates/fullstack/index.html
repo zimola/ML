@@ -1,0 +1,12 @@
+<form method = "POST" class="post-form">
+	{% csrf_token %}
+
+    {{ splitForm.as_p }}
+    {{ preprocessingForm.as_p }}
+    {{ machineLearningForm.as_p }}
+
+
+<button type="submit"">Execute</button>
+
+</form>
+
